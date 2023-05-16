@@ -142,7 +142,7 @@ for(let i=0; i<=10; i++) {
 }
 */
 
-//Esercizio 3 
+//Esercizio 3
 
 /*
 const pass = prompt(`Inserire una password`)
@@ -153,4 +153,102 @@ if (pass.length >= 6 && pass.length <= 20 && (pass.includes(".") || pass.include
 } else {
     console.log(`Riprova`);
 }
+*/
+
+/*
+Esercitazione 16/05/2023
+
+Esercizio 1
+
+let numero = parseInt(prompt(`Digita un numero`));
+
+function num(numero) {
+    if (numero > 0) {
+        console.log(`è un numero positivo`);
+    } else if (numero === 0) {
+        console.log(`è valore 0`)
+    }
+     else {
+        console.log( `è un numero negativo`);
+    }
+    return numero;
+}
+
+let verifica = num(numero);
+
+console.log(num(numero));
+*/
+
+/*
+//Esercizio 2
+
+let n = parseInt(prompt(`digita il primo numero`));
+
+let m = parseInt(prompt(`digita il secondo numemro`));
+
+function controllo(n, m) {
+    if (n === m) {
+        console.log(`TRUE`)
+    } else {
+        console.log(`FALSE`)
+    }
+     return (num1, num2);
+ }
+
+let verifica = controllo(num1, num2);
+
+ console.log(controllo(n, m));
+ */
+
+ //Esercizio 3
+
+/*
+let frase = prompt(`scrivi ua frase`);
+
+let v_a = 0;
+let v_e = 0;
+let v_i = 0;
+let v_o = 0;
+let v_u = 0;
+ 
+let totale = 0;
+ 
+for (let i = 0; i < frase.length; i++) {
+ 
+    let cerca = frase.charAt(i).toLowerCase();
+ 
+    switch (cerca) {
+ 
+        case "a":
+            v_a += 1;
+            totale += 1;
+            break
+ 
+        case "e":
+            v_e += 1;
+            totale += 1;
+            break;
+ 
+        case "i":
+            v_i += 1;
+            totale += 1;
+            break;
+ 
+        case "o":
+            v_o += 1;
+            totale += 1;
+            break;
+ 
+        case "u":
+            v_u += 1;
+            totale += 1;
+            break;
+ 
+    }
+ 
+}
+ 
+console.log(`il totale è ${totale}`)
+ 
+console.log(`le a sono ${v_a}, le e sono ${v_e}, le i sono ${v_i}, le o sono ${v_o}, le u sono ${v_u}`)
 */

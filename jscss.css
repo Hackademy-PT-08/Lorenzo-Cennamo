@@ -1,0 +1,48 @@
+let frase = prompt(`scrivi ua frase`);
+
+let v_a = 0;
+let v_e = 0;
+let v_i = 0;
+let v_o = 0;
+let v_u = 0;
+
+let totale = 0;
+
+for (let i = 0; i < frase.length; i++) {
+
+    let cerca = frase.charAt(i).toLowerCase();
+
+    switch (cerca) {
+
+        case "a":
+            v_a += 1;
+            totale += 1;
+            break
+
+        case "e":
+            v_e += 1;
+            totale += 1;
+            break;
+
+        case "i":
+            v_i += 1;
+            totale += 1;
+            break;
+
+        case "o":
+            v_o += 1;
+            totale += 1;
+            break;
+
+        case "u":
+            v_u += 1;
+            totale += 1;
+            break;
+
+    }
+
+}
+
+console.log(`il totale è ${totale}`)
+
+console.log(`le a sono ${v_a}, le e sono ${v_e}, le i sono ${v_i}, le o sono ${v_o}, le u sono ${v_u}`)
