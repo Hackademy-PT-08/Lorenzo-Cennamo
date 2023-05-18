@@ -200,7 +200,7 @@ let verifica = controllo(num1, num2);
  console.log(controllo(n, m));
  */
 
- //Esercizio 3
+//Esercizio 3
 
 /*
 let frase = prompt(`scrivi ua frase`);
@@ -251,4 +251,61 @@ for (let i = 0; i < frase.length; i++) {
 console.log(`il totale è ${totale}`)
  
 console.log(`le a sono ${v_a}, le e sono ${v_e}, le i sono ${v_i}, le o sono ${v_o}, le u sono ${v_u}`)
+*/
+
+//Esercitazione 18/05/2023
+
+//Esercizio 1
+
+/*
+const numPar = [2, 4, 6, 8, 10];
+
+const numDis = [1, 3, 5, 7, 9];
+
+const result = [];
+
+
+function miaFunzione () {
+if (numPar.length === numDis.length) {
+    for (let i = 0;  i < numPar.length; i++) {
+        result.push(numPar[i] + numDis[i]);
+    }
+
+    console.log(`il risultato è ${result}`); 
+    }   
+}
+
+miaFunzione();
+*/
+
+//Esercizio 2
+
+/*
+let prova = [];
+
+prova.push(prompt(`inserisci un valore`));
+
+let check = prova.includes(prompt(`controlla il valore`));
+
+console.log("la verifica del dato è " + check);
+*/
+
+//Esercizio 3
+
+/*
+const numbers = [1, -4, 7, 12];
+
+function addPositive(numbers) {
+    let sum = 0;
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] > 0) {
+            sum += numbers[i];
+        }
+    }
+    return sum;
+}
+
+let risultato = addPositive(numbers);
+
+console.log(risultato);
 */
