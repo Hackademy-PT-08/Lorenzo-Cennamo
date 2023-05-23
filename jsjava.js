@@ -309,3 +309,39 @@ let risultato = addPositive(numbers);
 
 console.log(risultato);
 */
+
+// Esercitazione 20/05/2023
+
+// Esercizio 1
+
+/*
+let playlist = {
+    canzoni: [
+  
+    ]
+}
+
+let canzone1 = {
+    titolo: "",
+    nomeCantante: "",
+    anno: ""
+};
+
+let canzone2 = {
+    titolo: "",
+    nomeCantante: "",
+    anno: ""
+};
+
+canzone1.titolo = "amore amaro";
+canzone1.nomeCantante = "gigi finizio";
+canzone1.anno = "2000";
+
+canzone2.titolo = "allenamento 2";
+canzone2.nomeCantante = "capo plaza";
+canzone2.anno = "2016";
+
+playlist.canzoni.push(canzone1, canzone2);
+
+console.log(playlist);
+*/
