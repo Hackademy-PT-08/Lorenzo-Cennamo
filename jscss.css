@@ -1,0 +1,16 @@
+h1 {
+    color: red;
+    background-color: blue;
+}
+
+let evento1 = new Evento("lezione aulab", "ore 18.30");
+let evento3 = new Evento("lezione aulab", "ore 18.30");
+let evento5 = new Evento("lezione aulab", "ore 18.30");
+let evento2= new Evento("esercitazione aulab", "ore 19");
+let evento4= new Evento("esercitazione aulab", "ore 19");
+
+aggiungi(evento1, lunedì);
+aggiungi(evento3, martedì);
+aggiungi(evento5, venerdì);
+aggiungi(evento2, martedì);
+aggiungi(evento4, giovedì); 
