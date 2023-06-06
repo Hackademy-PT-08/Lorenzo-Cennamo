@@ -679,4 +679,31 @@ let giornoTrovato = giorni.filter(giorno => giorno === cerca);
 console.log(giornoTrovato)
 
 cercaAppuntamenti(giornoTrovato);
+*/
+
+//Esercitazione del 01/06/2023 
+
+//Esercizio 1
+
 /*
+const happy = prompt(`la mamma è felice?`)
+
+const mom = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        if (happy === "si") {
+            resolve(happy)
+        } else {
+            reject(new Error(`non è felice`))
+        }
+    }, 1000)
+})
+
+
+mom
+    .then((result) => {
+        console.log(`è felice: ${result}`)
+    })
+    .catch((error) => {
+        console.log(`${error}`)
+    });
+*/
